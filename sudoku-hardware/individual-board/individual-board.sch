@@ -5555,13 +5555,16 @@ ULN and UDN Series&lt;p&gt;
 <label x="27.94" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="RED_POST" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="R_C"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="8"/>
-<wire x1="127" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="144.78" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
+<label x="129.54" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="1"/>
+<wire x1="127" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
+<label x="129.54" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -5573,111 +5576,16 @@ ULN and UDN Series&lt;p&gt;
 <wire x1="129.54" y1="193.04" x2="132.08" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="RED_PRE" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="O3"/>
-<wire x1="99.06" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="9"/>
-<wire x1="101.6" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="144.78" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="193.04" x2="93.98" y2="193.04" width="0.1524" layer="91"/>
+<label x="96.52" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="N$1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="G"/>
 <pinref part="U$1" gate="EXB-2HV560JV" pin="16"/>
-<wire x1="68.58" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="F"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="15"/>
-<wire x1="68.58" y1="129.54" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="14"/>
-<pinref part="U$2" gate="G$1" pin="E"/>
-<wire x1="101.6" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="D"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="13"/>
-<wire x1="68.58" y1="134.62" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="12"/>
-<pinref part="U$2" gate="G$1" pin="C"/>
-<wire x1="101.6" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="B"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="11"/>
-<wire x1="68.58" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="A"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="10"/>
-<wire x1="68.58" y1="142.24" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="7"/>
-<pinref part="U$3" gate="G$1" pin="A"/>
-<wire x1="127" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="B"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="6"/>
-<wire x1="167.64" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="5"/>
-<pinref part="U$3" gate="G$1" pin="C"/>
-<wire x1="127" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="D"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="4"/>
-<wire x1="167.64" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="3"/>
-<pinref part="U$3" gate="G$1" pin="E"/>
-<wire x1="127" y1="132.08" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="F"/>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="2"/>
-<wire x1="167.64" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U$1" gate="EXB-2HV560JV" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="G"/>
-<wire x1="127" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
+<label x="99.06" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -5699,6 +5607,174 @@ ULN and UDN Series&lt;p&gt;
 <pinref part="U$4" gate="G$1" pin="6"/>
 <wire x1="27.94" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="27.94" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="F_PRE" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="F"/>
+<wire x1="68.58" y1="129.54" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
+<label x="71.12" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="9"/>
+<wire x1="101.6" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
+<label x="99.06" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="G_PRE" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="G"/>
+<wire x1="68.58" y1="127" x2="71.12" y2="127" width="0.1524" layer="91"/>
+<label x="71.12" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="10"/>
+<wire x1="99.06" y1="142.24" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
+<label x="99.06" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="E_PRE" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="E"/>
+<wire x1="68.58" y1="132.08" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
+<label x="71.12" y="132.08" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="15"/>
+<wire x1="101.6" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<label x="99.06" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="D_PRE" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="D"/>
+<wire x1="68.58" y1="134.62" x2="71.12" y2="134.62" width="0.1524" layer="91"/>
+<label x="71.12" y="134.62" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="14"/>
+<wire x1="101.6" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
+<label x="99.06" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="C_PRE" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="C"/>
+<wire x1="68.58" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
+<label x="71.12" y="137.16" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="13"/>
+<wire x1="101.6" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<label x="99.06" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="B_PRE" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="B"/>
+<wire x1="68.58" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
+<label x="71.12" y="139.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="12"/>
+<wire x1="101.6" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<label x="99.06" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="A_PRE" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="A"/>
+<wire x1="68.58" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
+<label x="71.12" y="142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="11"/>
+<wire x1="101.6" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
+<label x="99.06" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="F_POST" class="0">
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="8"/>
+<wire x1="127" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
+<label x="129.54" y="144.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="F"/>
+<wire x1="167.64" y1="129.54" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
+<label x="165.1" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="A_POST" class="0">
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="6"/>
+<wire x1="127" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
+<label x="129.54" y="139.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="A"/>
+<wire x1="167.64" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
+<label x="165.1" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="G_POST" class="0">
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="7"/>
+<wire x1="127" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
+<label x="129.54" y="142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="G"/>
+<wire x1="167.64" y1="127" x2="165.1" y2="127" width="0.1524" layer="91"/>
+<label x="165.1" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="B_POST" class="0">
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="5"/>
+<wire x1="127" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
+<label x="129.54" y="137.16" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="B"/>
+<wire x1="167.64" y1="139.7" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
+<label x="165.1" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="C_POST" class="0">
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="4"/>
+<wire x1="127" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<label x="129.54" y="134.62" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="C"/>
+<wire x1="167.64" y1="137.16" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
+<label x="165.1" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="D_POST" class="0">
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="3"/>
+<wire x1="127" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
+<label x="129.54" y="132.08" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="D"/>
+<wire x1="167.64" y1="134.62" x2="165.1" y2="134.62" width="0.1524" layer="91"/>
+<label x="165.1" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="E_POST" class="0">
+<segment>
+<pinref part="U$1" gate="EXB-2HV560JV" pin="2"/>
+<wire x1="127" y1="129.54" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
+<label x="129.54" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="E"/>
+<wire x1="167.64" y1="132.08" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
+<label x="165.1" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
